@@ -20,7 +20,7 @@ start /wait "" "%TEMP_DIR%\python_installer.exe" /quiet InstallAllUsers=0 Prepen
 
 :: pip ile kütüphaneleri yükle
 echo Kütüphaneler yükleniyor...
-pip install numpy pandas matplotlib
+pip install xlwings pandas numpy openpyxl
 
 :: Geçici dosyaları temizle
 echo Geçici dosyalar temizleniyor...
