@@ -1,0 +1,2 @@
+[XLWINGS]
+project_name = örneklem
